@@ -1,0 +1,151 @@
+[
+  {
+    "productDetails":[
+
+      {
+        "productId": "a1234",
+        "productName": "Tank Top", 
+        "productPrice": 800,
+        "productColor": [
+          "White",
+          "Black"
+        ],  
+        "productSize": "Small",
+        "productInfo": {
+          "type": "Shirt",
+          "Manufacturer": "AND"
+          }
+      },
+
+
+      {
+      "productId": "b1234",
+        "productName": "Cullotes", 
+        "productPrice": 3000,
+        "productSize": "Medium",
+        "productInfo": {
+          "type": "Pants",
+          "Manufacturer": "Only"
+          }
+      }, 
+
+      
+      {
+      "productId": "c1234",
+        "productName": "Sneakers", 
+        "productPrice": 2000,
+        "productColor": [
+          "Blue",
+          "Black"
+        ],  
+        "productInfo": {
+          "type": "Shoes",
+          "Manufacturer": "Adidas"
+          }
+      },
+
+      {
+      "productId": "d1234",
+        "productName": "Hoodies", 
+        "productPrice": 2500,
+        "productSize": "Large",
+        "productInfo": {
+          "type": "Shirt",
+          "Manufacturer": "Flying Machine"
+          }
+      }
+
+    ]
+  },  
+
+
+  {
+    "orderDetails" : [
+
+      {
+      "orderID":"P123456",
+      "orderNumber":"345", 
+      "orderDate":"9th July",
+      "deliveryDate": "11th July",
+      "deliveryCharges": 50,
+      "deliveryAddress": {"Building":"Diamond Towers","Street":" Parkway ","City":"Bangalore", "Country":"India","Postal Code":500069}
+
+      },
+
+      {
+      "orderID":"Q123456",
+      "orderNumber":"346", 
+      "orderDate":"9th July",
+      "deliveryDate": "11th July",
+      "deliveryCharges": 50,
+      "deliveryAddress": {"Building":"Spade Towers","Street":" Parkway ","City":"Bangalore", "Country":"India","Postal Code":500069}
+
+      }
+
+      ]
+  },     
+
+  {
+      "customerDetails": [
+
+      { "firstName":"Shiv",
+        "lastName":"Suri",
+        "emailId":"shivsuri01@gmail.com",
+        "mobileNumber":984728264782
+
+      },
+
+      { "firstName":"Raj",
+        "lastName":"Kumar",
+        "emailId":"rajkumar01@gmail.com",
+        "mobileNumber":984728264785
+
+      },
+
+      { "firstName":"Pawan",
+        "lastName":"Puri",
+        "emailId":"pawanpuri01@gmail.com",
+        "mobileNumber":984728264784
+      }
+
+      ]
+  },
+
+  {
+
+      "cartDetails" :[
+
+      {
+        "cartId":"78888R",
+        "count":"4"
+
+      },
+
+      {
+        "cartId":"78888y",
+        "count":"12"
+        
+      }
+
+      ]
+  },     
+      
+  {
+
+        "paymentDetails " :[
+
+        {
+          "paymentMode":["Cash","Credit Card","Debit Card", "Paytm"],
+          "paymentId": "t1234"
+        },
+        {
+          "paymentMode":["Cash","Credit Card","Debit Card", "Paytm"],
+          "paymentId": "u1234"
+        }
+          
+        ]
+
+  }
+]
+
+

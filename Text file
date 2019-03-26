@@ -1,0 +1,23 @@
+Problem 1
+
+The attached JSON file consists of an array of objects. The objects are productDetails, orderDetails, CustomerDetails,cartDetails 
+and paymentDetails. Within each of these objects we have objects with keys productId, productName, productPrice, etc. The values of these keys are numbers, strings, 
+objects and arrays.
+
+
+Problem 2
+
+1. 
+To search the name of the Pokemon, we use a for in loop to check through the names of each object of the pokemon array and 
+compare it with the inputted pokemon name. If they match, we display the information of that pokemon. Else we display an alert that says "Pokemon not 
+found".
+
+2.
+We search for the names of pokemon in the next evolution field using two for in loops;one for the pokemon array and the other for the next evolution array.
+If the inputted pokemon is present in the next evolution array within the pokemon  array, we display the names of those pokemon that have the inputted pokemon
+in their next evolution field. Else we say "No pokemon has the inputted pokemon in their “next_evolution” field".
+
+3. 
+First we search for the names of the weakness from the weaknesses array using two for in loops. The outer for in loop is for the pokemon array 
+and the inner one is to loop through the weaknesses array. We then compare the input with the array and if the match is found we display the list 
+of those pokemon names that have the inputted weakness. Else we display an alert that says "Invalid weakness". 
